@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8800"; // Hardcode for now to test
+const BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:8800"; // Use env variable with fallback
 
 const useFetch = (url) => {
   const [data, setData] = useState([]);
