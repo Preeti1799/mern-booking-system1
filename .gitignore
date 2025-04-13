@@ -1,0 +1,9 @@
+.env
+node_modules/
+client/
+*.log
+*.tmp
+*/
+.vscode/
+test-env.cjs
+vercel.json
