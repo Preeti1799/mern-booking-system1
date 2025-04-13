@@ -1,0 +1,67 @@
+/* client/youtube2022/src/pages/Register/Register.css */
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .rContainer {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .rContainer h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .rInput {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .rButton {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .rButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+  }
+  
+  .rContainer p {
+    margin-top: 1rem;
+    color: #666;
+  }
+  
+  .rContainer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .rContainer a:hover {
+    text-decoration: underline;
+  }
